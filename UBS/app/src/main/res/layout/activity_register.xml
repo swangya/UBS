@@ -52,7 +52,7 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="sans-serif"
                 android:layout_marginBottom="3dp"
-                android:hint="User ID  ( Will be used to Log In )"
+                android:hint="Email Address  ( Will be used to Log In )"
                 android:textSize="14sp"
                 android:paddingTop="6dp"
                 android:paddingLeft="6dp"
@@ -60,21 +60,6 @@
                 android:paddingBottom="6dp"
                 />
 
-            <EditText
-                android:id="@+id/etdob"
-                android:layout_below="@id/etUserID"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:fontFamily="sans-serif"
-                android:hint="Date of Birth: MM/DD/YYYY"
-                android:inputType="date"
-                android:layout_marginBottom="3dp"
-                android:textSize="14sp"
-                android:paddingTop="6dp"
-                android:paddingLeft="6dp"
-                android:paddingRight="6dp"
-                android:paddingBottom="6dp"
-                />
             <EditText
                 android:id="@+id/etPassword"
                 android:inputType="textPassword"
@@ -88,7 +73,7 @@
                 android:paddingLeft="6dp"
                 android:paddingRight="6dp"
                 android:paddingBottom="6dp"
-                android:layout_below="@id/etdob"
+                android:layout_below="@id/etUserID"
                 />
             <EditText
                 android:id="@+id/etretypePassword"
@@ -218,23 +203,8 @@
                 android:layout_marginTop="16dp"
                 android:layout_height="35dp"
                 android:layout_alignParentBottom="true"/>
-            <Button
-                android:layout_width="match_parent"
-                android:id="@+id/ibviewdata"
-                android:foregroundGravity="center"
-                android:layout_below="@id/etidentity"
-                android:backgroundTint="@color/color3"
-                android:textSize="16sp"
-                android:fontFamily="sans-serif"
-                android:text="View Data"
-                android:background="@android:color/background_light"
-                android:layout_marginTop="16dp"
-                android:layout_height="35dp"
-                />
 
         </LinearLayout>
     </ScrollView>
-
-
 </LinearLayout>
 
