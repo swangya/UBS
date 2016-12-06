@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.swangya.ubs">
 
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -40,7 +42,9 @@
         <activity android:name=".Focus" />
         <activity android:name=".AITP" />
         <activity android:name=".readPost" />
-        <activity android:name=".writePost"></activity>
+        <activity android:name=".writePost" />
+        <activity android:name=".marketoptions" />
+        <activity android:name=".sellscreen"></activity>
     </application>
 
 </manifest>
