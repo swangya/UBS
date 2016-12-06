@@ -44,7 +44,8 @@
         <activity android:name=".readPost" />
         <activity android:name=".writePost" />
         <activity android:name=".marketoptions" />
-        <activity android:name=".sellscreen"></activity>
+        <activity android:name=".sellscreen" />
+        <activity android:name=".Adv"></activity>
     </application>
 
 </manifest>

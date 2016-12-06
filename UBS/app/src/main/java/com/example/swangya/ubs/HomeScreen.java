@@ -27,4 +27,9 @@ public class HomeScreen extends AppCompatActivity {
         Intent startWriteActivity = new Intent(this, marketoptions.class);
         startActivity(startWriteActivity);
     }
+
+    public void openAdv(View view){
+        Intent startWriteActivity = new Intent(this, Adv.class);
+        startActivity(startWriteActivity);
+    }
 }
