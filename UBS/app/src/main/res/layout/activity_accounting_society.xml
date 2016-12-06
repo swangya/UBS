@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/club_2100_club"
+    android:id="@+id/club_accounting_society"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
@@ -9,18 +9,18 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.swangya.ubs.Club_2100"
+    tools:context="com.example.swangya.ubs.AccountingSociety"
     android:background="#00000000">
 
 
     <TextView
         android:id="@+id/etClubName"
+        android:layout_below="@id/ivuta"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/ivuta"
         android:layout_marginBottom="3dp"
         android:fontFamily="sans-serif"
-        android:text="Club Name: 2100 Club"
+        android:text="Club Name: Accounting Society"
         android:textSize="14sp"
         android:paddingTop="6dp"
         android:paddingLeft="6dp"
@@ -32,7 +32,7 @@
         android:id="@+id/etAbout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="About: The 2100 Club aims to create a stronger sense of community and collaboration among the glass studio. This organization hopes to better the studio by organizing and running fundraising events to help fund visiting artists and equipment for the studio, social events to create a greater sense of community among the students, and to set an example for incoming students as active members both inside the studio and outside in the local art community. Those in the club strive to be active, dedicated members of the studio and hope to lead by example.    "
+        android:text="Welcome to the Accounting Society Homepage.  We are a professional student organization within the College of Business that provides students with the opportunities to meet recruiters/professionals in the field of Accounting. Within Accounting Society, students have the opportunity to build relationships between UTA’s accounting alumni and other professional firms and individuals in the Dallas-Fort Worth metroplex. We invite you to look at our page and join in on the experience the society creates."
         android:fontFamily="sans-serif"
         android:layout_marginBottom="3dp"
         android:textSize="14sp"
@@ -68,4 +68,6 @@
         android:layout_centerHorizontal="true" />
 
 
+
 </RelativeLayout>
+

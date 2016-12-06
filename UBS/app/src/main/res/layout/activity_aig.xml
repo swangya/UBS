@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/club_2100_club"
+    android:id="@+id/group_aiga_group"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
@@ -9,7 +9,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.swangya.ubs.Club_2100"
+    tools:context="com.example.swangya.ubs.AIGA"
     android:background="#00000000">
 
 
@@ -20,7 +20,7 @@
         android:layout_below="@+id/ivuta"
         android:layout_marginBottom="3dp"
         android:fontFamily="sans-serif"
-        android:text="Club Name: 2100 Club"
+        android:text="Group Name: AIGA UTA Student Group"
         android:textSize="14sp"
         android:paddingTop="6dp"
         android:paddingLeft="6dp"
@@ -32,8 +32,8 @@
         android:id="@+id/etAbout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="About: The 2100 Club aims to create a stronger sense of community and collaboration among the glass studio. This organization hopes to better the studio by organizing and running fundraising events to help fund visiting artists and equipment for the studio, social events to create a greater sense of community among the students, and to set an example for incoming students as active members both inside the studio and outside in the local art community. Those in the club strive to be active, dedicated members of the studio and hope to lead by example.    "
-        android:fontFamily="sans-serif"
+        android:text="AIGA UTA Student Group is a student run affiliate of the national American Institute of Graphic Art. Our goal is to enhance the education of UTA design students by providing events, workshops, resources, critiques, and community, while also helping them build leadership skills that will be valuable as they move into the professional world.
+AIGA, the professional association for design, believes designers serve a critical role as communicators, educators and innovators. AIGA sets the national agenda for the role of design in economic, social, political, cultural and creative contexts."
         android:layout_marginBottom="3dp"
         android:textSize="14sp"
         android:paddingTop="6dp"
@@ -68,4 +68,6 @@
         android:layout_centerHorizontal="true" />
 
 
+
 </RelativeLayout>
+

@@ -17,4 +17,9 @@ public class HomeScreen extends AppCompatActivity {
         Intent startWriteActivity = new Intent(this, ClubAndOrganization.class);
         startActivity(startWriteActivity);
     }
+
+    public void openComms(View view){
+        Intent startWriteActivity = new Intent(this, readPost.class);
+        startActivity(startWriteActivity);
+    }
 }

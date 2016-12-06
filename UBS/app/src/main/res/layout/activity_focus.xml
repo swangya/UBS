@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/club_2100_club"
+    android:id="@+id/group_focus"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
@@ -9,7 +9,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.swangya.ubs.Club_2100"
+    tools:context="com.example.swangya.ubs.Focus"
     android:background="#00000000">
 
 
@@ -20,7 +20,7 @@
         android:layout_below="@+id/ivuta"
         android:layout_marginBottom="3dp"
         android:fontFamily="sans-serif"
-        android:text="Club Name: 2100 Club"
+        android:text="Group Name: Focus"
         android:textSize="14sp"
         android:paddingTop="6dp"
         android:paddingLeft="6dp"
@@ -32,8 +32,7 @@
         android:id="@+id/etAbout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="About: The 2100 Club aims to create a stronger sense of community and collaboration among the glass studio. This organization hopes to better the studio by organizing and running fundraising events to help fund visiting artists and equipment for the studio, social events to create a greater sense of community among the students, and to set an example for incoming students as active members both inside the studio and outside in the local art community. Those in the club strive to be active, dedicated members of the studio and hope to lead by example.    "
-        android:fontFamily="sans-serif"
+        android:text="FOCUS is a student photographers organization at the University of Texas at Arlington. The purpose of this group is to offer a sense of community for students with an interest in the photographic arts, and expand their knowledge and appreciation of the field. To reach out to the community by exhibition, educational programs, and artist lectures about the photographic arts. To aid students in preparing for graduate studies, and professional careers in the photographic arts. So in short, Focus provides the environment for students and member to practice their skill set."
         android:layout_marginBottom="3dp"
         android:textSize="14sp"
         android:paddingTop="6dp"
@@ -61,11 +60,13 @@
         android:fontFamily="sans-serif"
         android:text="Send a Email to Join"
         android:textAllCaps="false"
-        android:background="@color/color3"
+        android:background="@android:color/background_light"
         android:layout_marginTop="50dp"
         android:layout_height="35dp"
         android:layout_below="@+id/etAbout"
         android:layout_centerHorizontal="true" />
 
 
+
 </RelativeLayout>
+

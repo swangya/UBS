@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/club_2100_club"
+    android:id="@+id/club_advertising_league_of_texas_at_arlington"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
@@ -9,18 +9,18 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.swangya.ubs.Club_2100"
+    tools:context="com.example.swangya.ubs.AdvertisingLeagueOfTexasAtArlington"
     android:background="#00000000">
 
 
     <TextView
         android:id="@+id/etClubName"
+        android:layout_below="@id/ivuta"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/ivuta"
         android:layout_marginBottom="3dp"
         android:fontFamily="sans-serif"
-        android:text="Club Name: 2100 Club"
+        android:text="Club Name: Advertising League of Texas at Arlington"
         android:textSize="14sp"
         android:paddingTop="6dp"
         android:paddingLeft="6dp"
@@ -32,7 +32,9 @@
         android:id="@+id/etAbout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="About: The 2100 Club aims to create a stronger sense of community and collaboration among the glass studio. This organization hopes to better the studio by organizing and running fundraising events to help fund visiting artists and equipment for the studio, social events to create a greater sense of community among the students, and to set an example for incoming students as active members both inside the studio and outside in the local art community. Those in the club strive to be active, dedicated members of the studio and hope to lead by example.    "
+        android:text="The American Advertising Federation (AAF), headquartered in Washington, D.C., acts as the “Unifying Voice for Advertising.” The AAF is the oldest national advertising trade association, representing 40,000 professionals in the advertising industry.
+
+Through its 200-plus college chapters, the AAF provides 7,000 advertising students with real-world case studies and recruitment connections to corporate America."
         android:fontFamily="sans-serif"
         android:layout_marginBottom="3dp"
         android:textSize="14sp"
@@ -68,4 +70,6 @@
         android:layout_centerHorizontal="true" />
 
 
+
 </RelativeLayout>
+

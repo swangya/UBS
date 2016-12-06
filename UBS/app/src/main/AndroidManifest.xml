@@ -26,7 +26,21 @@
         <activity
             android:name=".Club_2100"
             android:label="@string/title_activity_club_2100"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".ACollectionOfBrothers" />
+        <activity android:name=".Access" />
+        <activity android:name=".AccountingSociety" />
+        <activity android:name=".ActuarialScienceClub" />
+        <activity android:name=".AdvertisingLeagueOfTexasAtArlington" />
+        <activity android:name=".AeroMavericks" />
+        <activity android:name=".CreateClub" />
+        <activity android:name=".LinuxUser" />
+        <activity android:name=".AIGA" />
+        <activity android:name=".ArtHistoryStudentUnion" />
+        <activity android:name=".Focus" />
+        <activity android:name=".AITP" />
+        <activity android:name=".readPost" />
+        <activity android:name=".writePost"></activity>
     </application>
 
 </manifest>

@@ -23,7 +23,8 @@
         android:scaleType="centerInside"
         android:layout_height="150dp"
         android:layout_alignParentTop="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        android:elevation="20dp"/>
 
     <ImageButton
         android:layout_width="150dp"
@@ -36,7 +37,8 @@
         android:layout_below="@+id/shopButton"
         android:layout_alignParentStart="true"
         android:layout_marginTop="25dp"
-        android:onClick="openRes"/>
+        android:onClick="openRes"
+        android:elevation="20dp"/>
 
     <ImageButton
         android:layout_width="150dp"
@@ -47,7 +49,9 @@
         android:id="@+id/brodcast"
         android:scaleType="centerInside"
         android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true" />
+        android:layout_alignParentEnd="true"
+        android:elevation="20dp"
+        android:onClick="openComms"/>
 
 
 </RelativeLayout>
