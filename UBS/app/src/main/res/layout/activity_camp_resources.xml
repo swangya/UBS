@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/camp_resources"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="@color/color1"
+
+    tools:context="com.example.swangya.ubs.CampResources">
+
+    <ScrollView
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="7dp">
+            <ImageView
+
+                android:id="@+id/ivuta"
+                android:src="@drawable/u_logo"
+                android:cropToPadding="false"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="20dp" />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_margin="1dp"
+                android:text="Campus Map"
+                android:autoLink="web"
+                android:clickable="true"
+                android:id="@+id/b_campus_map"
+                android:onClick="GoToCampMap"
+                android:textAllCaps="false"
+                android:textSize="20dp"
+                android:fontFamily="sans-serif-condensed"
+                android:textColor="@android:color/white"
+                android:background="@color/color3"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_margin="1dp"
+                android:text="Event Calendar"
+                android:autoLink="web"
+                android:clickable="true"
+                android:id="@+id/b_event_calendar"
+                android:onClick="GoToEventCalendar"
+                android:textAllCaps="false"
+                android:textSize="20dp"
+                android:fontFamily="sans-serif-condensed"
+                android:textColor="@android:color/white"
+                android:background="@color/color3"
+                />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_margin="1dp"
+                android:textColor="@android:color/white"
+                android:background="@color/color3"
+                android:text="Library Updates"
+                android:autoLink="web"
+                android:clickable="true"
+                android:id="@+id/b_library_updates"
+                android:onClick="GoToLibrary"
+                android:textAllCaps="false"
+                android:textSize="20dp"
+                android:fontFamily="sans-serif-condensed"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_margin="1dp"
+                android:textColor="@android:color/white"
+                android:background="@color/color3"
+                android:text="MAC Hours"
+                android:autoLink="web"
+                android:clickable="true"
+                android:id="@+id/b_mac_hours"
+                android:onClick="GoToMacHours"
+                android:textAllCaps="false"
+                android:textSize="20dp"
+                android:fontFamily="sans-serif-condensed"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_margin="1dp"
+                android:textColor="@android:color/white"
+                android:background="@color/color3"
+                android:text="Academics Calendar"
+                android:autoLink="web"
+                android:clickable="true"
+                android:id="@+id/b_academics_calendar"
+                android:onClick="GoToAcademicsCalendar"
+                android:textAllCaps="false"
+                android:textSize="20dp"
+                android:fontFamily="sans-serif-condensed"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_margin="1dp"
+                android:text="Housing"
+                android:autoLink="web"
+                android:clickable="true"
+                android:id="@+id/b_housing"
+                android:onClick="GoToHousing"
+                android:textAllCaps="false"
+                android:textSize="20dp"
+                android:fontFamily="sans-serif-condensed"
+                android:textColor="@android:color/white"
+                android:background="@color/color3"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_margin="1dp"
+                android:text="Dining"
+                android:autoLink="web"
+                android:clickable="true"
+                android:id="@+id/b_dining"
+                android:onClick="GoToDining"
+                android:textAllCaps="false"
+                android:textSize="20dp"
+                android:fontFamily="sans-serif-condensed"
+                android:textColor="@android:color/white"
+                android:background="@color/color3"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

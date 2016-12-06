@@ -20,7 +20,13 @@
         <activity
             android:name=".HomeScreen"
             android:label="Home" />
-        <activity android:name=".ClubAndOrganization"></activity>
+        <activity android:name=".ClubAndOrganization" />
+        <activity android:name=".Club" />
+        <activity android:name=".CampResources" />
+        <activity
+            android:name=".Club_2100"
+            android:label="@string/title_activity_club_2100"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>

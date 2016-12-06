@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/club"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    tools:context="com.example.swangya.ubs.Club"
+    android:background="@color/color1">
+
+    <ScrollView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="7dp">
+            <ImageView
+
+                android:id="@+id/ivuta"
+                android:src="@drawable/u_logo"
+                android:cropToPadding="false"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="20dp" />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_margin="1dp"
+                android:text="2100 Club"
+                android:id="@+id/bclub_2100_club"
+                android:textAllCaps="false"
+                android:textSize="20sp"
+                android:fontFamily="sans-serif-condensed"
+                android:textColor="@android:color/white"
+                android:background="@color/color3"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_margin="1dp"
+                android:textColor="@android:color/white"
+                android:background="@color/color3"
+                android:text="Art History Student Union"
+                android:id="@+id/bgroup_art_history_student_union"
+                android:textAllCaps="false"
+                android:textSize="20dp"
+                android:fontFamily="sans-serif-condensed"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_margin="1dp"
+                android:text="A Collection of Brothers (COB)"
+                android:id="@+id/bclub_a_collection_of_brothers"
+                android:textAllCaps="false"
+                android:textSize="20sp"
+                android:fontFamily="sans-serif-condensed"
+                android:textColor="@android:color/white"
+                android:background="@color/color3"
+                />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_margin="1dp"
+                android:textColor="@android:color/white"
+                android:background="@color/color3"
+                android:text="Access"
+                android:id="@+id/bclub_access"
+                android:textAllCaps="false"
+                android:textSize="20sp"
+                android:fontFamily="sans-serif-condensed"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_margin="1dp"
+                android:textColor="@android:color/white"
+                android:background="@color/color3"
+                android:text="Accounting Society"
+                android:id="@+id/bclub_accounting_society"
+                android:textAllCaps="false"
+                android:textSize="20sp"
+                android:fontFamily="sans-serif-condensed"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_margin="1dp"
+                android:textColor="@android:color/white"
+                android:background="@color/color3"
+                android:text="Actuarial Science Club"
+                android:id="@+id/bclub_actuarial_science_club"
+                android:textAllCaps="false"
+                android:textSize="20sp"
+                android:fontFamily="sans-serif-condensed"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_margin="1dp"
+                android:textColor="@android:color/white"
+                android:background="@color/color3"
+                android:text="Advertising League of Texas at Arlington"
+                android:id="@+id/bclub_advertising_league_of_texas_at_arlington"
+                android:textAllCaps="false"
+                android:textSize="20sp"
+                android:fontFamily="sans-serif-condensed"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_margin="1dp"
+                android:text="Aero Mavericks"
+                android:id="@+id/bclub_aero_mavericks"
+                android:textAllCaps="false"
+                android:textSize="20sp"
+                android:fontFamily="sans-serif-condensed"
+                android:textColor="@android:color/white"
+                android:background="@color/color3"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_margin="1dp"
+                android:text="Linux User Group"
+                android:id="@+id/bgroup_linux_user_group"
+                android:textAllCaps="false"
+                android:textSize="20dp"
+                android:fontFamily="sans-serif-condensed"
+                android:textColor="@android:color/white"
+                android:background="@color/color3"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_margin="1dp"
+                android:text="AIGA UTA Student Group"
+                android:id="@+id/bgroup_aiga_group"
+                android:textAllCaps="false"
+                android:textSize="20dp"
+                android:fontFamily="sans-serif-condensed"
+                android:textColor="@android:color/white"
+                android:background="@color/color3"
+                />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_margin="1dp"
+                android:textColor="@android:color/white"
+                android:background="@color/color3"
+                android:text="Focus"
+                android:id="@+id/bgroup_focus"
+                android:textAllCaps="false"
+                android:textSize="20dp"
+                android:fontFamily="sans-serif-condensed"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_margin="1dp"
+                android:textColor="@android:color/white"
+                android:background="@color/color3"
+                android:text="AITP"
+                android:id="@+id/bgroup_aitp"
+                android:textAllCaps="false"
+                android:textSize="20dp"
+                android:fontFamily="sans-serif-condensed"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_margin="1dp"
+                android:text="Create Organization Request"
+                android:id="@+id/bcreate_a_club"
+                android:textAllCaps="false"
+                android:textSize="20sp"
+                android:fontFamily="sans-serif-condensed"
+                android:textColor="@android:color/white"
+                android:background="@color/color3"/>
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>
