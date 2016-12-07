@@ -73,7 +73,7 @@
         android:fontFamily="sans-serif"
         android:text="Send a Email to Join"
         android:textAllCaps="false"
-        android:background="@android:color/background_light"
+        android:background="@color/color3"
         android:layout_marginTop="50dp"
         android:layout_height="35dp"
         android:layout_below="@+id/url"
