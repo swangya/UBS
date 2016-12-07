@@ -19,7 +19,6 @@ import java.io.ByteArrayOutputStream;
 
 
 
-
 public class sellscreen extends AppCompatActivity {
     Database DB;
     EditText name, price, desc, mail, num;

@@ -10,19 +10,6 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     android:layout_marginTop="20dp">
 
-    <android.support.design.widget.FloatingActionButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:clickable="true"
-        app:fabSize="mini"
-        app:srcCompat="@android:drawable/ic_menu_add"
-        android:layout_marginBottom="1dp"
-        android:id="@+id/floatingActionButton3"
-        android:src="@android:drawable/ic_input_add"
-        app:backgroundTint="@android:color/holo_red_light"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginEnd="15dp" />
 
     <GridView
         android:id="@+id/gridView"

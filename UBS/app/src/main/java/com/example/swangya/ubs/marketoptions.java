@@ -11,6 +11,9 @@ import android.widget.GridView;
 import java.util.ArrayList;
 
 
+/**
+ * Created by Batman on 03-Dec-16.
+ */
 
 public class marketoptions extends AppCompatActivity {
     GridView gridView;
@@ -41,14 +44,6 @@ public class marketoptions extends AppCompatActivity {
         }
         gridView.setAdapter(pageadapter);
 
-
-        FloatingActionButton sell = (FloatingActionButton) findViewById(R.id.floatingActionButton3);
-        sell.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent page = new Intent(getApplicationContext(), sellscreen.class);
-                startActivity(page);}
-        });
 
     }
 }

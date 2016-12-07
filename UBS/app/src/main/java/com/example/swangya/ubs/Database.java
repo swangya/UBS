@@ -51,7 +51,7 @@ public class Database extends SQLiteOpenHelper {
 
     private static final String CREATE_TABLE = "create table "+ TRADE_TABLE_NAME + " ("
             + KEY_ID + " integer primary key autoincrement, "
-            + COL_PIC + " blob, "
+            + COL_PIC + " image blob, "
             + COL_ITEMNAME + " Item name text, "
             + COL_DESC + " detail, "
             + COL_COST + " price, "
@@ -99,6 +99,8 @@ public class Database extends SQLiteOpenHelper {
         else
         {return true;}
     }
+
+
 
     public ArrayList<Item> returnItem() {return items;}
 }

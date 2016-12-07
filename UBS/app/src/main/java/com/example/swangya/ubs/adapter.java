@@ -63,3 +63,4 @@ public class adapter extends BaseAdapter {
         return BitmapFactory.decodeByteArray(image, 0, image.length);
     }
 }
+
